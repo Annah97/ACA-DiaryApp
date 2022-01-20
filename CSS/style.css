@@ -1,0 +1,36 @@
+body{
+    background-color: ;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.title-story{
+    margin-top: -15px;
+}
+.search{
+float: right;
+margin-top: -58px;
+margin-right: 40px;
+width: 200px;
+height: 30px;
+}
+
+.submit-story{
+    float:right;
+    margin-top: 300px;
+    margin-right: 40px;
+    border: 2px solid black;
+    height: 85px;
+    border-radius: 70px;
+}
+img{
+    width: 200px;
+    height: 30px;
+}
