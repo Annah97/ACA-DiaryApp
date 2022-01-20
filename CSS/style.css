@@ -1,36 +1,80 @@
-body{
-    background-color: ;
-}
+
 
 .container {
-    width: 800px;
-    height: 500px;
-    margin-left: 350px;
+    width: 1500px;
+    height: 800px;
     margin-top: 50px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
-.title-story{
-    margin-top: -15px;
+.input-area {
+background-color: #dff3e3;
+border-radius: 15px 0 0 15px;
 }
-.search{
-float: right;
-margin-top: -58px;
-margin-right: 40px;
-width: 200px;
-height: 30px;
+.review {
+box-shadow: inset 0px 0px 30px -20px rgb(153, 179, 159);
+border-radius: 0 15px 15px 0;
+border-left: 2px solid #8db596;
+position: relative;
+border-radius: 0 0 15px 15px;
+border-top: 2px solid #8db596;
+border-left: none;
+}
+.review > h1:first-child {
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+font-size: 14px;
+display: inline;
+padding: 0.25rem;
+}
+.table-wrap {
+margin: 2rem 1rem;
+height: 90%;
+border: 1px solid #000;
+}
+tbody > tr {
+font-size: 24px;
 }
 
-.submit-story{
-    float:right;
-    margin-top: 300px;
-    margin-right: 40px;
-    border: 2px solid black;
-    height: 85px;
-    border-radius: 70px;
+tbody > tr > td:nth-of-type(4) {
+font-size: 18px;
+padding: 0;
+padding-right: 0.5rem;
 }
-img{
+.showDeleteIcon {
+visibility: visible;
+}
+
+.review {
+border-radius: 0 0 15px 15px;
+border-top: 2px solid #8db596;
+border-left: none;
+}
+.form-data{
+    width: 250px;
+    margin-top: 10px;
+}
+
+.form-body{
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    padding-top: -10px;
+}
+.btn-submit{
+    margin-top: 10px;
     width: 200px;
-    height: 30px;
+    height: 20px;
 }
+
+.btn-clear{
+    margin-top: 10px;
+    width: 200px;
+    background-color: lightgreen;
+}
+
+
