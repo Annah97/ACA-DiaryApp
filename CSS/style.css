@@ -8,40 +8,66 @@ body {
     font-smooth: antialiased;
     background: #ffffff;
   }
+  
 .container {
-    width: 800px;
-    height: 500px;
-    margin-left: 350px;
+    width: 1400px;
+    height: 600px;
+    margin-left: 330px;
     margin-top: 50px;
     border: 2px solid black;
     border-radius: 5px;
 }
 .title-story{
-    margin-top: -15px;
+    margin-top: 15px;
 }
 .search{
 float: right;
-margin-top: -58px;
-margin-right: 40px;
+margin-top: 35px;
+margin-right: 43px;
 width: 200px;
 height: 30px;
 }
-.submit-story{
-    float:right;
-    margin-top: 300px;
-    margin-right: 40px;
-    border: 2px solid black;
-    height: 85px;
-    border-radius: 70px;
+
+#storytitle{
+    width: 300px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding-left: 5px;
+    font-weight: bold;
 }
-img{
-    width: 200px;
-    height: 30px;
+
+#storybody{
+    width: 300px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding-left: 5px;
+    font-weight: bold;
 }
+
+#insertbtn{
+    margin-left: 60px;
+    margin-top: 5px;
+    width: 300px;
+    height: 41px;
+    border: none;
+    color: white;
+    background-color: #2AB573;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .wrapper{
   margin: 0 auto;
   padding: 40px;
   max-width: 800px;
+  margin-left: 800px;
+  margin-top: -180px;
 }
 .table{
   margin: 0 0 40px 0;

@@ -4,14 +4,21 @@
         <link rel="stylesheet" type="text/css"  href ="CSS/style.css">
     </head>
     <body>
-        <header>DAILY STORIES</header>
         <div class ="container">
-            <a href="#" class="home-link" >Home</a>
-            <h1 class="title-story" style="text-align: center;">ALL STORIES</h1>
-            <form action="">
-                <input type="text" class="Search" placeholder="Search Story">
-                <input id="storytitle" class="text-input" placeholder="Add your story title">
-                <input id="storybody" class="text-input" value="" type="text" placeholder ="Tell us a story">
+            <input type="title-search" class="Search" placeholder="Search Story">
+           <center><h1 class="title-story" style="text-align: center;">DAILY STORIES</h1></center> 
+<div >
+<div >
+<input type="text" class="form-control" id="storytitle" placeholder="Give your story a title">
+</div>
+</div>
+<div >
+
+<div>
+<div >
+<input type="text" class="form-control" id="storybody" placeholder="What's your story?">
+</div>
+</div>
                 <button id="insertbtn" class="insert-btn" type="submit" onclick="insertStory()" value="Insert Story">Insert Story</button>
             </form>
 
@@ -28,8 +35,6 @@
                     </tbody>
                 </table>
             </div>
-            
-            <a href="create-story.html" class="Submit-Story" name="submit"><img src="add.png"></a>
         </div>
         <script src="create-story.js"></script>
     </body>
