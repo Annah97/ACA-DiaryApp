@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Daily Stories</title>
 
+<head>
+	<title>Site Bookmarker</title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
-<<<<<<< HEAD
+
+
+
+<div class="container">
 	
-<h2>Bookmarker</h2>
-=======
-<Header>Sort Daily Stories</Header>
-<h3>Test Run</h3>
->>>>>>> 5ef7fe914f5b2e0b65d3b4072190ea156b757bd2
+	<form class="form" action="#">
+	<div class="input-field">
+		<label for="site_name">Name</label>
+		<input name="site_name" type="text"
+			placeholder="site name">
+	</div>
+
+	<div class="input-field">
+		<label for="url">URL</label>
+		<input name="url" type="text"
+			placeholder="https://www.africacode.com">
+	</div>
+		
+	<button class="save_button">Save</button>
+	</form>
+
+	<h2>Saved Bookmarks</h2>
+	
+	<div class="bookmarks"></div>
+</div>
+
+<script src="js/bookmark.js"></script>
 </body>
 </html>
